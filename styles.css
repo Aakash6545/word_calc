@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+}
+.container{
+    background-color: white;
+    border-radius: 8px;
+    max-width: 90%;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+
+}
+textarea{
+    height: 150px;
+    width: 100%;
+    cursor: pointer;
+
+}
+.stats-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.stat{
+    flex:1;
+}
+.stat-number{
+color:blue
+
+}
+.stat-label{
+    color: grey;
+}

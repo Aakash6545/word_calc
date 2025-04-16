@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Count Calculator</h1>
+        <textarea  id="text-input" placeholder="Type or paste your text here..."></textarea>
+        <button class="btn-calculate" id="calculate-btn" >Calculate</button>
+        <button class="btn-clear" id="clear-btn">Clear Text</button>
+    </div>
+    <div class="stats">
+
+        <div class="stat">
+            <div>
+                <div class="stat-number" id="word-count">0</div>
+                <div class="stat-label">Words</div>
+            </div>
+        </div>
+        <div class="stat">
+            <div>
+                <div class="stat-number" id="character-count">0</div>
+                <div class="stat-label">Characters</div>
+            </div>
+        </div>
+        <div class="stat">
+            <div>
+                <div class="stat-number" id="sentence-count">0</div>
+                <div class="stat-label">Sentences</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
